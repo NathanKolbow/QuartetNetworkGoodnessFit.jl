@@ -56,7 +56,7 @@ Calculation quartet CFs for 15 quartets...
 julia> show(q[1].taxonnumber)
 [1, 2, 3, 4]
 julia> show(q[1].data)
-[0.8885456713760765, 0.05572716431196175, 0.05572716431196175]
+[0.8885456713760765, 0.05572716431196174, 0.05572716431196172]
 
 julia> for qi in q
          println(join(t[qi.taxonnumber],",") * ": " *
